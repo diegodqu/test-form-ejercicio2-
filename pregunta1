@@ -1,0 +1,30 @@
+ 
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+	    $('#registrar').click(function() {
+
+	    	var registro	= $("#registroProducto").val();
+	        var producto	= $("#producto").val();
+	        var categoria	= $("#categoria").val();
+	        var precio 		= $("#precio").val();
+
+	        $("#precio").val('Producto:' + producto '- Categoría:' + categoria + '- Precio:' + precio);
+	        
+	       var arrayCategoria = jQuery.makeArray( arrayCategoria );
+
+	    });
+
+	    $('#total_categorias').click(function() {
+	    	alert();
+	    }
+
+	    $('#total_productos').click(function() {
+	    	alert();
+	    }
+
+	    $('#suma_productos').click(function() {
+	    	alert();
+	    }
+	});
+</script>
