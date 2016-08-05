@@ -7,7 +7,8 @@
 			border:3px solid black;
 			position: relative;
 			width: 200px;
-    		height: 200px;
+    			height: 200px;
+    			background: pink;
 		}
 		 
 		#cuadrado-amarillo{
@@ -36,6 +37,7 @@
 			bottom: 0;
 			left: 0;
 		}
+		/*
 		#paralelograma-rosa{
 			width: 86px;
 		    height: 135px;
@@ -48,6 +50,7 @@
 		    top: 50px;
 		    left: 0;
 		}
+		*/
 		#rombo{
 			width: 0;
 			height: 0;
