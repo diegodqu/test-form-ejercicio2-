@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tangram</title>
+	<style>
+		#tangram{
+			border:3px solid black;
+			position: relative;
+			width: 200px;
+    		height: 200px;
+		}
+		 
+		#cuadrado-amarillo{
+			width: 100px;
+			height: 100px;
+			background: yellow;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+		}
+		#triangulo-verde{
+			width: 0;
+			height: 0;
+			border-bottom: 100px solid green;
+			border-left: 100px solid transparent;
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+		#triangulo-anaranjado{
+			width: 0;
+			height: 0;
+			border-bottom: 100px solid orange;
+			border-right: 100px solid transparent;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+		#paralelograma-rosa{
+			width: 86px;
+		    height: 135px;
+		    -webkit-transform: skew(48deg) rotate(46deg);
+		    -moz-transform: skew(48deg) rotate(46deg);
+		    -o-transform: skew(48deg) rotate(46deg);
+		    background: pink;
+		    transform-origin: center;
+		    position: absolute;
+		    top: 50px;
+		    left: 0;
+		}
+		#rombo{
+			width: 0;
+			height: 0;
+			border: 50px solid transparent;
+			border-bottom-color: red;
+			position: absolute;
+			top: -50px;
+			left: 50px;
+		}
+		#rombo:after {
+			content: '';
+			position: absolute;
+			left: -50px;
+			top: 50px;
+			width: 0;
+			height: 0;
+			border: 50px solid transparent;
+			border-top-color: red;
+		}
+		#triangulo-1 {
+			width: 0;
+			height: 0;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			border-top: 50px solid blue;
+			position: absolute;
+		    right: 0;
+		    top: 0;
+		}
+		#triangulo-2 {
+			width: 0;
+			height: 0;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			border-top: 50px solid blue;
+			position: absolute;
+		    left: 0;
+		    top: 0;
+		}
+	</style>
+</head>
+<body>
+	<div id="tangram">
+		<div id="cuadrado-amarillo"></div>
+		<div id="triangulo-verde"></div>
+		<div id="triangulo-anaranjado"></div>
+		<div id="paralelograma-rosa"></div>
+		<div id="rombo"></div>
+		<div id="triangulo-1"></div>
+		<div id="triangulo-2"></div>
+	</div>
+</body>
+</html>
+
+
